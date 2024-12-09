@@ -1,0 +1,61 @@
+* {
+  /* background-color: black; */
+  font-family: "Verdana", "Arial", sans-serif;
+}
+
+.card {
+  height: 470px;
+  width: 500px;
+  margin: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+img {
+  margin-left: 20px;
+  margin-top: 20px;
+
+  width: 460px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-left: 20px;
+  text-underline-offset: 200px;
+  position: relative;
+  /* display: inline-block; */
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 1px;
+  background-color: rgb(96, 91, 91);
+  bottom: -10px;
+  left: 0;
+}
+
+.price {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 21px;
+  color: rgb(96, 91, 91);
+}
+
+#secprice {
+  text-decoration: line-through;
+}
+
+#offer {
+  border: 1px solid aqua;
+  height: 30px;
+  width: 110px;
+  background-color: aqua;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  
+}
