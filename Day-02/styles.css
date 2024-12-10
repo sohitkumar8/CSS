@@ -21,11 +21,19 @@
   /* position: absolute; */
   display: inline-block;
 }
+#sk1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 #sk12 {
   position: absolute;
   top: 0;
   right: 0;
+}
+img{
+  height: 5rem;
 }
 
 #sk13 {
