@@ -1,0 +1,48 @@
+#paragraph {
+  overflow: auto;
+  height: 200px;
+  width: 300px;
+  margin: 50px 100px 100px 50px;
+
+  background-color: aqua;
+  box-shadow: 3px 3px 3pc;
+}
+.divi {
+  height: 50vh;
+  width: 300px;
+  margin: 50px 100px 100px 50px;
+
+  background-color: aqua;
+  box-shadow: 3px 3px 3pc;
+  position: relative;
+}
+
+.box {
+  /* position: absolute; */
+  display: inline-block;
+}
+
+#sk12 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#sk13 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sk14 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#sk15 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
