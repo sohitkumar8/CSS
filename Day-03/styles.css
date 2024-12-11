@@ -1,0 +1,45 @@
+
+.wrapper{
+    height: 100vh;
+    
+    background-color: yellow;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box{
+    padding: 1rem;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+#box1:hover{
+    transform: rotateX(45deg);
+}
+#box2:hover{
+    transform: rotateY(45deg);
+}
+#box3:hover{
+    transform: rotateZ(45deg);
+}
+#box4:hover{
+    transform: translateX(100px);
+}
+#box5:hover{
+    transform: translateY(100px);
+}
+#box6:hover{
+    transform:perspective(300px) translateZ(100px);
+}
+#box7:hover{
+    transform: scaleX(1.5);
+}
+#box8:hover{
+    transform: scaleY(1.5);
+}
+#box9:hover{
+    transform:perspective(300px) scaleZ(5) rotateY(30deg);
+}
