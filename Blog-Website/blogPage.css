@@ -1,28 +1,140 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&family=Raleway&family=Roboto&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body, html{
-    font-family: "poppins", sans-serif;
+body,
+html {
+  font-family: "poppins", sans-serif;
+}
+#wrapper {
+  /* height: 100vh; */
+  width: 100%;
 }
 
-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
-header p{
-    font-size: 1.1rem;
-    font-weight: 500;
+header p {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
-header h1{
-    font-size: 2.3rem;
-    font-weight: 700;
-    text-decoration: underline;
+header h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  gap: 3%;
+  margin-bottom: 20px;
+}
+
+.left {
+  border: 0;
+  margin: 5% 2% 2% 5%;
+}
+
+.mainHead {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+#square {
+  border: 1px solid black;
+  width: 100%;
+  height: 5%;
+  /* padding: 10px; */
+  overflow: hidden;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+}
+#square2 {
+  border: 1px solid black;
+  width: 100%;
+  height: 3%;
+  /* padding: 4px; */
+  overflow: hidden;
+  margin: 10px 0 10px 0;
+}
+
+ul {
+  margin: 15px 0 15px 45px;
+}
+ul li {
+  padding: 5px;
+}
+
+ol {
+  margin: 15px 0 15px 45px;
+}
+ol li {
+  padding: 5px;
+}
+
+.para1 {
+  margin-bottom: 20px;
+}
+.right {
+  border: 0;
+  margin: 5% 5% 0 2%;
+}
+
+.about {
+  border: 0;
+  background-color: rgb(225, 225, 225);
+  width: 90%;
+  height: 18%;
+  padding: 20px;
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.para {
+}
+
+.archives {
+  margin: 20px 0;
+}
+
+.Elsewhere {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.btn1 {
+  border: 2px solid blue;
+  border-radius: 25px;
+  width: 80px;
+  height: 30px;
+  color: blue;
+}
+.btn2 {
+  border: 2px solid rgb(134, 128, 128);
+  border-radius: 25px;
+  width: 95px;
+  height: 30px;
+  color: rgb(134, 128, 128);
 }
